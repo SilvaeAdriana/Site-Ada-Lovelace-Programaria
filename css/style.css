@@ -1,0 +1,97 @@
+body{
+  text-align: center;
+  font-family: opens san,sans serif;
+  background-color: #8A71C9;
+  color: #FFFFFF;
+  margin:0px;/*reflete lá no compto da tag filah section*/
+  padding-bottom: 30px;
+}
+h1{
+  font-size: 60px;
+  font-weight: 300;
+  font-style:italic;
+}
+
+h2{
+  color:#2A0074;
+  font-size: 40px;
+}
+
+h3{
+  font-size: 22px;
+}
+p{
+  font-size:20px;
+  line-height: 1.5,=;
+}
+.titulo-verde{
+  color:#04ff9f;
+}
+
+.titulo-vermelho{
+  color: #FF9E9E;
+}
+
+.titulo-amarelo{
+  color:#ffe36d;
+}
+
+section{
+  width:60%;/*60% da tag mãe que é a body, por isso é a margem dela q deve ser mexida/modificada para surtir alteração em tm*/
+  margin:0 auto;
+}
+
+section section{/*provoca o efeito em uma section dentro de uma section*/
+  width: 100%;/*ocupar toda a largura da section*/
+}
+
+img{
+  width: 100%;
+}
+
+ul{
+  list-style-type: none;/*sem ícone*/
+  line-height: 2;
+  padding-left:0;/*zerado o padding padrão, para centralizar os elementos*/
+}
+
+
+li{display: inline-block/*ESSE É O PRINCIPAL LI?*/
+}/*aqui se refere ao menu do topo*/
+
+
+a{
+  text-decoration: none;/*tirar o sublinhado*/
+  color:  #99ffff;
+  font-weight: 700;
+ 
+}
+
+.principal{/*MENU*/
+  background: #ff6cb5;
+  height: 40px;
+  max-width: 60%;/*refere-se ao menu*/
+  margin:0 auto;/*para qdo o menu grudar no lado*/
+}
+
+.principal a{
+  color: #fff;
+  text-decoration: underline;
+  font-weight: normal;
+}
+
+.principal li{
+  display:inline-block;
+  line-height: 2.5;
+  margin: 0 89px;/*cima embaixo=0 lados -89*/
+
+}
+
+button{
+  background-color: #41f341;
+  border: 1px solid transparent;
+  padding: 2px 20px;
+  border-radius: 3px;
+}
+
+
